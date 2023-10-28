@@ -1,0 +1,17 @@
+{
+  "__version__": "1.0.5",
+  "general": {
+    "designResolution": {
+      "width": 750,
+      "height": 1336,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "custom_joint_texture_layouts": []
+}

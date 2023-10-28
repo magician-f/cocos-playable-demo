@@ -1,0 +1,13 @@
+{
+  "creator": {
+    "version": "3.8.0",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {}
+  },
+  "name": "373_example",
+  "uuid": "c339b5c3-010b-4775-a701-8124f82ded75",
+  "version": "3.8.0",
+  "_sourceId": "0194ae3d-fea3-43ac-8fca-c1fa1ca1e654"
+}
