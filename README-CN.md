@@ -44,8 +44,6 @@ super-html 将构建好的web-mobile 打包成各个试玩平台文件
 
 * [查看生成后的文件示例](https://github.com/magician-f/cocos-playable-demo/tree/main/build/super-html)
 
-![channels.png](./docs/images/channels.png)
-
 ### 4. 测试
 
 #### 试玩平台介绍
