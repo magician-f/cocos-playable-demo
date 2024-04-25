@@ -22,8 +22,6 @@ Project/Assets/super_html_playable.ts
 import { super_html_playable } from "./super_html_playable";
 ```
 
-#### 导入项目
-
 #### 基础接入
 * 点击下载按钮
 ```
