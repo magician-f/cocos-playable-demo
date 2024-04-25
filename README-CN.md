@@ -8,7 +8,21 @@
 
 ## 开始
 
-### 1. 接入 [sdk](https://github.com/magician-f/cocos-playable-demo/tree/main/docs/sdk/super_html_playable.ts)
+### 1. 接入 
+
+#### 下载并添加到项目
+
+* 下载 [super_html_playable.ts](https://github.com/magician-f/cocos-playable-demo/tree/main/docs/sdk/super_html_playable.ts)
+
+* 例子
+```
+// 添加到项目
+Project/Assets/super_html_playable.ts
+// 引用
+import { super_html_playable } from "./super_html_playable";
+```
+
+#### 导入项目
 
 #### 基础接入
 * 点击下载按钮
@@ -21,12 +35,7 @@ super_html_playable.game_end();
 ```
 
 #### 额外接入
-* 不需要下载按钮 : google
-```
-if (super_html_playable.is_hide_download()) {
-    this.button_download.active = false;
-}
-```
+
 * 需要设置点击下载跳转的商店地址 : unity
 ```
 const google_play = "https://play.google.com/store/apps/details?id=com.unity3d.auicreativetestapp";
@@ -35,6 +44,7 @@ const appstore = "https://apps.apple.com/us/app/ad-testing/id1463016906";
 super_html_playable.set_google_play_url(google_play);
 super_html_playable.set_app_store_url(appstore);
 ```
+
 
 ### 2. 安装 [打包工具 super-html](https://store.cocos.com/app/detail/3657)
 
@@ -63,5 +73,4 @@ super-html 将构建好的web-mobile 打包成各个试玩平台文件
 ## 联系作者
 
 * wechat：magician-f8
-* email：magician-f@qq.com
 

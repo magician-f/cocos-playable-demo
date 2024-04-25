@@ -10,7 +10,19 @@
 
 ## Getting Started
 
-### 1. Integration of [sdk](https://github.com/magician-f/cocos-playable-demo/tree/main/docs/sdk/super_html_playable.ts)
+### 1. Integration Of 
+
+#### Download And Add Project
+
+* Download [super_html_playable.ts](https://github.com/magician-f/cocos-playable-demo/tree/main/docs/sdk/super_html_playable.ts)
+
+* Example
+```
+// Add Project
+Project/Assets/super_html_playable.ts
+// import
+import { super_html_playable } from "./super_html_playable";
+```
 
 #### Basic Integration
 * Click the download button
@@ -23,12 +35,7 @@ super_html_playable.game_end();
 ```
 
 #### Additional Integration
-* No need for download button: google
-```
-if (super_html_playable.is_hide_download()) {
-    this.button_download.active = false;
-}
-```
+
 * Set the store URL for download redirection: unity
 ```
 const google_play = "https://play.google.com/store/apps/details?id=com.unity3d.auicreativetestapp";
@@ -66,5 +73,5 @@ super-html packages the built web-mobile into playable platform files
 
 ## Contact the Author
 
+* Discord: cocos_magician
 * WeChat: magician-f8
-* Email: magician-f@qq.com
