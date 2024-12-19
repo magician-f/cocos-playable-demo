@@ -51,6 +51,15 @@ export class super_html_playable {
         window.super_html && (super_html.appstore_url = url);
     }
 
+    /**
+    * 是否开启声音
+    * channel : ironsource
+    */
+    is_audio() {
+        //@ts-ignore
+        return (window.super_html && super_html.is_audio()) || true;
+    }
+
 
 }
 export default new super_html_playable();
