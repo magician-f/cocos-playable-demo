@@ -45,6 +45,16 @@ super_html_playable.set_google_play_url(google_play);
 super_html_playable.set_app_store_url(appstore);
 ```
 
+* Only : ironsource 
+```
+// When the game starts, obtain the sound status to decide whether to set the volume to 0 or not.
+if(super_html_playable.is_audio()){
+   // volume to normal
+}else{
+   // volume to 0
+}
+```
+
 ### 2. Install [packaging tool super-html](https://store.cocos.com/app/detail/3657)
 
 super-html packages the built web-mobile into playable platform files
