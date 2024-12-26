@@ -36,7 +36,7 @@ super_html_playable.game_end();
 
 #### Additional Integration
 
-* Set the store URL for download redirection: unity
+* Set the store URL for download redirection: unity | ironsource
 ```
 const google_play = "https://play.google.com/store/apps/details?id=com.unity3d.auicreativetestapp";
 const appstore = "https://apps.apple.com/us/app/ad-testing/id1463016906";
