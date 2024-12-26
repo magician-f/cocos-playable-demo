@@ -34,7 +34,7 @@ super_html_playable.game_end();
 
 #### 额外接入
 
-* 需要设置点击下载跳转的商店地址 : unity
+* 需要设置点击下载跳转的商店地址 : unity | ironsource
 ```
 const google_play = "https://play.google.com/store/apps/details?id=com.unity3d.auicreativetestapp";
 const appstore = "https://apps.apple.com/us/app/ad-testing/id1463016906";
@@ -42,7 +42,15 @@ const appstore = "https://apps.apple.com/us/app/ad-testing/id1463016906";
 super_html_playable.set_google_play_url(google_play);
 super_html_playable.set_app_store_url(appstore);
 ```
-
+* 只有这个平台需要 : ironsource 
+```
+// 游戏开始时，获取声音状态以决定是否将音量设置为0。
+if(super_html_playable.is_audio()){
+   // 音量恢复正常
+}else{
+   // 音量设置为0
+}
+```
 
 ### 2. 安装 [打包工具 super-html](https://store.cocos.com/app/detail/3657)
 
